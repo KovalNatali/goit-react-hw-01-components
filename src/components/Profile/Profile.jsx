@@ -33,13 +33,13 @@ export const Profile = () => {
     )
 }
 
-Profile.propTypes = {
+// Profile.propTypes = {
     
-username: PropTypes.string,
-tag: PropTypes.string,
-location: PropTypes.string,
-avatar: PropTypes.string,
-followers: PropTypes.number,
-views: PropTypes.number,
-likes: PropTypes.number,
-}
+// username: PropTypes.string,
+// tag: PropTypes.string,
+// location: PropTypes.string,
+// avatar: PropTypes.string,
+// followers: PropTypes.number,
+// views: PropTypes.number,
+// likes: PropTypes.number,
+// }
