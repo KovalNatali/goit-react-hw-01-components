@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+
 import user from '../Profile/user.json';
 import { Container,Avatar, Status, Description, Name,Label } from './Profile.styled';
 
@@ -33,13 +33,3 @@ export const Profile = () => {
     )
 }
 
-// Profile.propTypes = {
-    
-// username: PropTypes.string,
-// tag: PropTypes.string,
-// location: PropTypes.string,
-// avatar: PropTypes.string,
-// followers: PropTypes.number,
-// views: PropTypes.number,
-// likes: PropTypes.number,
-// }
