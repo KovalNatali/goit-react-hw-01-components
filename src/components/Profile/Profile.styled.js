@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const Container = styled.div`
     display: block;
     padding: 8px;
@@ -50,16 +51,18 @@ font-size: 20px;
 export const Tag = styled.p`
 font-size: 20px;
 text-align: center;
-color: #a09f9;
+color: #a09f9e;
 margin-bottom: 20px;
-`
+`;
+
 
 export const Location = styled.p`
 font-size: 20px;
 text-align: center;
-color: #a09f9;
+color: #a09f9e;
 margin-bottom: 20px;
-`
+`;
+
 export const Quantity = styled.span`
   font-size: 15px;
   font-weight: 700;

@@ -1,7 +1,7 @@
 
 import user from '../Profile/user.json';
 import { Container,Avatar, Status, Description, Name,Label, Tag, Location, Quantity, StatsItem} from './Profile.styled';
-
+import PropTypes from 'prop-types';
 
 export const Profile = () => {
     return (
@@ -33,3 +33,11 @@ export const Profile = () => {
     )
 }
 
+
+Profile.propTypes = {
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  stats: PropTypes.objectOf(PropTypes.number).isRequired,
+};
