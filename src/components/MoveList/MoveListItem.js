@@ -1,4 +1,4 @@
-const MoveListItem = ({ id, title, year }) => {
+const MoveListItem = ({ title, year }) => {
   return (
     <li>
       <div>
